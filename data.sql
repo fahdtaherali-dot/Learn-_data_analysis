@@ -1,12 +1,21 @@
-use alriyadiat_amaluna;
-select 6 > 5;
-select 1 and 0;
-select 2 * 2;
-select * from student where student_score > 99;
+use math_is_our_hope ;
 
-update student 
-set student_score = 100
-where id = 1;
-delete from student where id = 3;
-select * from student order by student_name ASC;
+select * from student 
+where frist_name like "ا%" ;
+
+select distinct academic_level
+from student;
+
+select frist_name as 
+ename from student;
+
+select age from student group by age;
+
+select age*12 as 'year to month'
+from student;
+create table students 
+select * from student where academic_level >= 8;
+
+select * from students;
+
 
