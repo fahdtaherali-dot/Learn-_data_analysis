@@ -13,11 +13,21 @@ select age from student group by age;
 
 select age*12 as 'year to month'
 from student;
-create table students 
-select * from student where academic_level >= 8;
 
 select * from students;
 
 
-ALTER TABLE student 
-CHANGE frist_name first_name VARCHAR(100);
+select avg(age)
+from student ;
+
+select max(academic_level)
+from student;
+
+select min(age)
+from student;
+
+select sum(age)
+from student;
+
+select count(id)
+from student;
