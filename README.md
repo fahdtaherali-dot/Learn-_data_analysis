@@ -15,4 +15,3 @@ The `data.sql` file demonstrates fundamental SQL skills, including:
 ## 🚀 Getting Started
 1. Clone this repository or copy the content of `data.sql`.
 2. Import the script into your SQL environment.
-3. The database schema and sample data will be created automatically
